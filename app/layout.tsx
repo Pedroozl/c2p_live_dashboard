@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
-        <title>GabON!</title>
+        <title>C2P - LIVE PREVIEW</title>
       </head>
       <body
         className={cn(
