@@ -135,7 +135,7 @@ export default function Home() {
   useEffect(() => {
     async function init() {
       setLoading(true);
-      var res = await fetch("https://api.stream.zljxl.xyz/api/live/current");
+      var res = await fetch("https://api.stream.zljxl.xyz/stream/current");
       const data = await res.json();
       if (res.status == 200) {
         setIsLive(true);
