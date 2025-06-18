@@ -55,7 +55,7 @@ export default function Home() {
   }, [sessionId]);
 
   function startWS() {
-    const wss = new WebSocket("ws://api.stream.zljxl.xyz");
+    const wss = new WebSocket("wss://api.stream.zljxl.xyz");
     wss.onmessage = (event) => {
       const data = JSON.parse(event.data);
       const { d, t, op } = data;
