@@ -57,7 +57,7 @@ export default function Painel() {
   React.useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:5001/streams",  {
+        const response = await fetch("http://api.stream.zljxl.xyz/streams",  {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
