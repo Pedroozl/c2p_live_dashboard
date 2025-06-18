@@ -20,6 +20,7 @@ export default function Footer() {
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.marataizes.es.gov.br/transparencia"
                   className="hover:text-white transition-colors"
                 >
@@ -29,6 +30,7 @@ export default function Footer() {
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://marataizes.camarasempapel.com.br/spl/consulta-producao.aspx?tipo=7"
                   className="hover:text-white transition-colors"
                 >
@@ -38,6 +40,7 @@ export default function Footer() {
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://marataizes.camarasempapel.com.br/legislacao/"
                   className="hover:text-white transition-colors"
                 >
@@ -47,6 +50,7 @@ export default function Footer() {
               <li>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.marataizes.es.gov.br/e-ouv"
                   className="hover:text-white transition-colors"
                 >
@@ -57,6 +61,7 @@ export default function Footer() {
                 <a
                   target="_blank"
                   href="/manage"
+                  rel="noreferrer"
                   className="hover:text-white transition-colors"
                 >
                   Acesso Tnterno
