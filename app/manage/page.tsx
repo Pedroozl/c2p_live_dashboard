@@ -23,7 +23,6 @@ import {
 import { AppSidebar } from "@/components/app-sidebar"
 import LoadingComponent from "@/components/loading-page"
 
-import "react-svg-map/lib/index.css"
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
